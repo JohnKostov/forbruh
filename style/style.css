@@ -200,7 +200,7 @@ h3{
     top: 98px;
     background: url(sasho1.png);
     filter: drop-shadow(-4px -4px 4px rgba(204, 130, 197, 0.25)) drop-shadow(4px 4px 4px rgba(63, 32, 152, 0.25));
-    border-radius: 64px;
+    border-radius: 28px;
 }
 
 .download{
