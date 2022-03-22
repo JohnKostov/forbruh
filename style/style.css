@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #1D1F20;
+    font-family: 'Montserrat', sans-serif;
+    color: white ;
+    width: 1000px;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.ico-menu{
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 199px;
+    top: 11px;
+    background: linear-gradient(136.81deg, #363B3E 4.07%, #1D1F20 94.74%);
+    mix-blend-mode: normal;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    
+}
+
+.cake{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 11px;
+    top: -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 87.9%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    position: absolute;
+    width: 663px;
+    height: 38px;
+    left: 352px;
+    top: -4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 87.9%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.045em;
+}
+
+.ico-arrow{
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 1106px;
+    top: 10px;
+    background: linear-gradient(136.81deg, #363B3E 4.07%, #1D1F20 94.74%);
+    mix-blend-mode: normal;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+}
+
+.arrow{
+    position: absolute;
+    right: 17px;
+    bottom: 20px;
+}
+
+.age{
+    position: absolute;
+    width: 699px;
+    height: 331px;
+    left: 334px;
+    top: 109px;
+    background: linear-gradient(136.81deg, #363B3E 4.07%, #1D1F20 94.74%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(255, 255, 255, 0.12);
+    border-radius: 45px;
+}
+
+h2{
+    position: absolute;
+    width: 652px;
+    height: 104px;
+    left: 31px;
+    top: -2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 128.9%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+hr{
+    border: 2px solid white;
+    border-radius: 20px;
+    position: absolute;
+    width: 543px;
+    height: 0px;
+    left: 78px;
+    top: 138px;
+}
+
+.circle{
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 300px;
+    top: 172px;
+    background: linear-gradient(136.81deg, #21ACF1 4.07%, #9C327E 94.74%);
+    mix-blend-mode: normal;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(255, 255, 255, 0.12);
+    border-radius: 65.5px;
+}
+
+.rock{
+    position: absolute;
+    width: 57px;
+    height: 40px;
+    left: 22px;
+    top: -16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 87.9%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.rockiv{
+    position: absolute;
+    width: 98px;
+    height: 18px;
+    left: 304px;
+    top: 265px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 87.9%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.265em;
+}
+
+.image{
+    position: absolute;
+    width: 699px;
+    height: 802px;
+    left: 334px;
+    top: 509px;
+    background: linear-gradient(136.81deg, #363B3E 4.07%, #1D1F20 94.74%);
+    mix-blend-mode: normal;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(255, 255, 255, 0.12);
+    border-radius: 45px;
+}
+
+h3{
+    position: absolute;
+    width: 540px;
+    height: 25px;
+    left: 82px;
+    top: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 87.9%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.265em;
+}
+
+[title="Санька"]{
+    position: absolute;
+    width: 523px;
+    height: 523px;
+    left: 80px;
+    top: 98px;
+    background: url(sasho1.png);
+    filter: drop-shadow(-4px -4px 4px rgba(204, 130, 197, 0.25)) drop-shadow(4px 4px 4px rgba(63, 32, 152, 0.25));
+    border-radius: 64px;
+}
+
+.download{
+    position: absolute;
+    width: 463px;
+    height: 99px;
+    left: 102px;
+    top: 664px;
+    background: linear-gradient(136.81deg, #21ACF1 4.07%, #9C327E 94.74%);
+    mix-blend-mode: normal;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(255, 255, 255, 0.12);
+    border-radius: 65.5px;
+}
+
+.download-text{
+    position: absolute;
+    width: 384px;
+    height: 40px;
+    left: 38px;
+    top: -11px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 87.9%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hug{
+    position: absolute;
+    width: 699px;
+    height: 122px;
+    left: 333px;
+    top: 1356px;
+    background: linear-gradient(136.81deg, #363B3E 4.07%, #1D1F20 94.74%);
+    mix-blend-mode: normal;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(255, 255, 255, 0.12);
+    border-radius: 45px;
+}
+
+.thanks{
+    position: absolute;
+    width: 653px;
+    height: 76px;
+    left: 22px;
+    top: -1px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 152.4%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1000px;
+}
+
+.box{
+    height: 1550px;
+    width: 200px;
+}
